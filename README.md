@@ -1,1 +1,2 @@
 # answers
+## If you would like to help out your classmates by providing answers OR improving those here, please fork, clone, add, commit, push, and submit a pull request. If your code fits the bill, I'll accept the request to merge your edits into the files.
