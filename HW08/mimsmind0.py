@@ -18,6 +18,8 @@ def get_length():
     return length
 
 
+# Two get_random functions are presented for teaching purposes.
+# Comment out the second to test the first (the second overwrites the first).
 # get_random with exponentiation
 def get_random(length):
     length = int(length)
@@ -43,6 +45,8 @@ def get_initial_guess(length):
     return guess, guess_count
 
 
+# Two provide_feedback functions are presented for teaching purposes.
+# Comment out the second to test the first (the second overwrites the first).
 # provide_feedback with recursion
 def provide_feedback(guess, rand_num, guess_count):
     guess = int(guess)
