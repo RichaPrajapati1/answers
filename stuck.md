@@ -15,7 +15,7 @@
         <br>- Dividing a long program into functions allows you to debug the parts one at a time and then assemble them into a working whole.
         <br>- Well-designed functions are often useful for many programs. Once you write and debug one, you can reuse it. ([TP:Ch3.12][Ch3.12])
 
-+ remember: it is not magic
++ remember: it is **not magic**
 + comment as you develop (you have a limited range of focus and working memory)
     + externalizing your memory and directing your focus through comments helps
 + take the directions and turn into pseudocode
@@ -23,7 +23,7 @@
     + test and print along the way
 
         > The goal of incremental development is to avoid long debugging sessions by adding and testing only a small amount of code at a time. ([TP:Ch6.2][Ch6.2])
-+ before introducing code found on StackOverflow, test in a new environment to confirm you know what it does
++ before introducing code found on StackOverflow, test in a new environment to **confirm you know what it does**
 + these words are special - Python keywords:
     + `and, as, assert, break, class, continue, def, del, elif, else, except, exec, finally, for, from, global, if, import, in, is, lambda, not, or, pass, print, raise, return, try, while, with, yield`
 + do not use these as names for variables (or you overwrite the built-in function) ([Built-in Functions][BinF]):
@@ -46,7 +46,6 @@
 
     > In general, error messages tell you where the problem was discovered, but that is often not where it was caused. ([TP:Ch5][Ch5])
 
-+ walk through your code line by line
 + write out code, variables, test cases
 + draw the flow of execution
 + comment out blocks of code (to isolate problem)
@@ -54,6 +53,21 @@
     
     > Don’t forget that most list methods modify the argument and return None.([TP:Ch10.13][Ch10.13])
 + dictionaries ([TP:Ch11.8][Ch11.8])
+
+
+
++ so, yes, walk through your code line by line
+    #BUT: 
+    + **you** are not a Python interpreter/parser/compiler
+    + don't think the code isn't doing what you are telling it to do
+        + it is doing EXACTLY what you are telling it to do
+    + so break it down, piece-by-piece
+        + isolate the problem area
+        + **test it** in a fresh script
+        + or test it in the interpreter
+    + it is **not magic**
+
+
 
 ###Resources
 + [StackOverflow][SO]
